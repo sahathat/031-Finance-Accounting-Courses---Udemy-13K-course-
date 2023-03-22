@@ -392,4 +392,5 @@ lower_sub
 # write markdown file
 install.packages("rmarkdown")
 library("rmarkdown")
-
+install.packages("tinytex")
+library("tinytex")
