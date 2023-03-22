@@ -189,7 +189,7 @@ sd_known_rating_paid <- sd(Udemy$rating[Udemy$is_paid == "True"])
 sd_known_rating_free <- sd(Udemy$rating[Udemy$is_paid == "False"])
 
 # หาค่า z value ในการทดสอบ
-sd_error_rating <- sqrt(sd_known_rating_paid^2/n_paid+sd_known_rating_free^2/n_free)
+sd_error_rating <- sqrt(sd_known_rating_paid^2/n_rating_paid+sd_known_rating_free^2/n_rating_free)
 z_rating <- ((mean_rating_paid-mean_rating_free)-(mean_pop_rating_paid-mean_pop_rating_free))/sd_error_rating
 z_rating
 
@@ -388,4 +388,8 @@ lower_sub
 # lower value is -1119.938
 
 # สรุปข้อมูลทั้งสองชุด คาดการณ์ว่ามีผลต่างของผู้ติดตามในช่วงของ 0 ถึง 5574.158 คน
+
+# write markdown file
+install.packages("rmarkdown")
+library("rmarkdown")
 
