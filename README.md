@@ -30,7 +30,7 @@ Original Datasets from: [kaggle](https://www.kaggle.com/jilkothari/finance-accou
 ## Table of Contents
 
 1. [Exploratory Data Analysis and Hypothesis](https://github.com/sit-2021-int214/031-Finance-Accounting-Courses---Udemy-13K-course-/blob/main/assignment/MidtermAssignment.md)
-2. [Data Visualization by power bi]()
+2. [Data Visualization by power bi](https://app.powerbi.com/view?r=eyJrIjoiM2E2NWVkMWEtZjliYi00NTIzLWIyN2EtZDkyMWIxMWFiY2E5IiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 
 ## Resources
 
